@@ -17,9 +17,19 @@ body {
   min-height: 100vh;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  width: auto;
+  margin: auto;
+}
+
 form {
   width: 100%;
   position: fixed;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -42,9 +52,12 @@ li {
 }
 
 .table-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-grow: 1;
   width: 100%;
   overflow-y: auto;
-  padding-top: 52px;
+  padding: 1rem;
 }
 
 td {
